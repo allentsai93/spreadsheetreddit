@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
-import { render } from 'react-dom';
+//import { render } from 'react-dom';
 import RedditPost from './containers/RedditPost';
 import Header from './components/Header';
 import './App.css';
 import Grid from '@material-ui/core/Grid';
-import AppBar from '@material-ui/core/AppBar';
 import Hidden from '@material-ui/core/Hidden';
 import Typography from '@material-ui/core/Typography';
 import 'typeface-roboto';

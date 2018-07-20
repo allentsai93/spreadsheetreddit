@@ -7,21 +7,23 @@ class PostImage extends Component {
   }
 
   componentWillMount() {
-    const { post } = this.props;
-    switch(post.domain) {
-      case "v.redd.it": 
-      this.setState({imageUrl: post.url});
-      break;
-      case "i.imgur.com":
-      this.setState({imageUrl: post.url}) 
-    }
+    // const { post } = this.props;
+    // switch(post.domain) {
+    //   case "v.redd.it": 
+    //   this.setState({imageUrl: post.url});
+    //   break;
+    //   case "i.imgur.com":
+    //   this.setState({imageUrl: post.url});
+    //   break;
+    //   default: null;
+    // }
     
   }
 
   render() {
   const { post } = this.props;
   return (
-    <img className="post-image" src={post.url} />
+    <img className="post-image" src={post.url} alt="post"/>
   )
   }
 }

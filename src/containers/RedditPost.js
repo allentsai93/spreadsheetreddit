@@ -45,7 +45,7 @@ class RedditPost extends Component {
           </Typography>
         </Grid>
         <Grid item md="1" sm="10" xs="8" zeroMinWidth className={this.state.highlighted ? 'highlightedcell cell' : 'cell'} onClick={this.highlightCellHandler}>
-          <Typography noWrap>{this.props.post.data.thumbnail_height ? <img src={this.props.post.data.thumbnail} /> : null}</Typography>
+          <Typography noWrap>{this.props.post.data.thumbnail_height ? <img src={this.props.post.data.thumbnail} alt="thumbnail" /> : null}</Typography>
         </Grid>
         <Grid item md="4" sm="12" xs="12" zeroMinWidth className={this.state.highlighted ? 'highlightedcell cell' : 'cell'} onClick={this.highlightCellHandler}>
           <Typography noWrap>

@@ -26,7 +26,7 @@ const Header = () => {
             </Grid>
             <Grid container>
               <Grid item xs="12">
-                <img className="toolbar-img" src="https://i.imgur.com/CvaJ0LO.jpg" />
+                <img className="toolbar-img" src="https://i.imgur.com/CvaJ0LO.jpg" alt="toolbar"/>
               </Grid>
             </Grid>
           </div>
