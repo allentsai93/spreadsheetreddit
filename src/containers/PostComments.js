@@ -15,18 +15,18 @@ class PostComments extends Component {
     const { post, comments } = this.props;
     return (
       <Grid container className="highlightedcell">
-        <Grid item xs="12" zeroMinWidth className="highlightedcell">
+        <Grid item xs={12} zeroMinWidth className="highlightedcell">
           <Typography align="center"><PostImage post={post}/></Typography>
         </Grid>
-        <Grid item xs="12" zeroMinWidth className="highlightedcell">
+        <Grid item xs={12} zeroMinWidth className="highlightedcell">
           <Typography variant="title" gutterBottom align="center">{post.selftext ? post.selftext : post.title}</Typography>
         </Grid>
-        <Grid item xs="12" zeroMinWidth className="highlightedcell">
+        <Grid item xs={12} zeroMinWidth className="highlightedcell">
           <Typography variant="title" gutterBottom>Comments</Typography>
         </Grid>
-        <Grid item xs="12" zeroMinWidth>
-          {comments.map(comments => {
-            return <CommentReplies comment={comments} />;
+        <Grid item xs={12} zeroMinWidth>
+          {comments.map((comments, index) => {
+            return <CommentReplies key={index} comment={comments} />;
           })}
         </Grid>
       </Grid>

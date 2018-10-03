@@ -12,20 +12,20 @@ const Header = () => {
           <AppBar position="sticky">
           <div className="toolbar">
             <Grid className="navbar-grid" container>
-              <Grid item sm="1" xs="3">
+              <Grid item sm={1} xs={3}>
               <Icon className='fas fa-file-alt spreadsheet-icon' />
               </Grid>
-              <Grid item sm="9" xs="3">
+              <Grid item sm={9} xs={3}>
               <Typography>Spreadsheet</Typography>
               </Grid>
-              <Grid item sm="2" xs="6">
+              <Grid item sm={2} xs={6}>
                 <div className="share-btn">
                   <Typography variant="button">Share</Typography>
                 </div>
               </Grid>
             </Grid>
             <Grid container>
-              <Grid item xs="12">
+              <Grid item xs={12}>
                 <img className="toolbar-img" src="https://i.imgur.com/CvaJ0LO.jpg" alt="toolbar"/>
               </Grid>
             </Grid>
