@@ -1,8 +1,11 @@
 Spreadsheet Reddit
 - Built with React
 
+- Currently working on:
+  - Moving states to redux
+  - Added router
+
 - Current ideas in the pipeline:
-  - Add redux/router
   - polish UI
 
-- Will be deployed soon, to run your own build, just clone the repo, run npm install, then npm start.
+To run your own build, just clone the repo, run npm install, then npm start.
