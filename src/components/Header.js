@@ -1,5 +1,5 @@
 import React from 'react';
-import '../App.css';
+import '../containers/App.css';
 import Grid from '@material-ui/core/Grid';
 import AppBar from '@material-ui/core/AppBar';
 import Typography from '@material-ui/core/Typography';
